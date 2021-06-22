@@ -1,0 +1,88 @@
+body {
+    font-family: 'Karla', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f4e9;
+    color: #2D1C10;
+}
+
+nav {
+    background-color: #D5A98A;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    padding: 10px;
+}
+
+main {
+    margin: 10px 25px
+}
+
+/* FORM */
+#post_form {
+    border-radius: 5px;
+    background-color: #EEE1BF;
+    padding: 20px;
+}
+
+input[type=text], textarea {
+    width: 100%;
+    max-width: 800px;
+    padding: 10px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;;
+}
+
+button {
+    width: 170px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+button:hover {
+    background-color: #45a049;
+}
+
+input[type=text]:focus,
+textarea:focus {
+    border: 1px solid #2D1C10;
+}
+
+/* POSTS AREA */
+#blog_list {
+    padding: 10px 20px;
+}
+
+/* FOOTER */
+#credits {
+    font-family: 'Karla', sans-serif;
+    color: rgb(150, 144, 144);
+    padding: 7px;
+    letter-spacing: 0.05em;
+    font-size: 0.9em;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+#credits a {
+    text-decoration: none;
+    color: #C38355;
+    display: inline-block;
+}
+
+#credits a:hover {
+    transform: translate3d(0, -2px, 0);
+    text-shadow: 0.7px 0.7px 1.5px #f7c78d;
+}

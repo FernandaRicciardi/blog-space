@@ -4,7 +4,7 @@ https://fernandaricciardi.github.io/blog-space/
 
 Hiya!!
  
-This is a basic project that uses 2 HTTP request methods: GET and POST.
+This is a project that uses 2 HTTP request methods: GET and POST.
 
 The GET method gets a list of blog posts from an API. Only the *title* and the *body* properties of the first 10 posts are displayed on the page.
 
